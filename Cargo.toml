@@ -1,0 +1,62 @@
+[workspace]
+members = [
+    "arcrelay-wire",
+    "arcrelay-transport",
+    "arcrelay-peer",
+    "arcrelay-automation",
+    "arcrelay-content",
+    "arcrelay-files",
+    "arcrelay-input",
+    "arcrelay-network",
+    "arcrelay-print",
+    "arcrelay-protocol",
+    "arcrelay-transfer",
+    "arcrelay-web-gateway",
+    "arcrelay-core",
+    "arcrelay-desktop",
+]
+resolver = "2"
+
+[patch."https://github.com/ArcRelayProject/arcrelay-automation.git"]
+arcrelay-automation = { path = "arcrelay-automation" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-content.git"]
+arcrelay-content = { path = "arcrelay-content" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-core.git"]
+arcrelay-core = { path = "arcrelay-core" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-files.git"]
+arcrelay-files = { path = "arcrelay-files" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-input.git"]
+arcrelay-input = { path = "arcrelay-input" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-network.git"]
+arcrelay-network = { path = "arcrelay-network" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-peer.git"]
+arcrelay-peer = { path = "arcrelay-peer" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-print.git"]
+arcrelay-print = { path = "arcrelay-print" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-protocol.git"]
+arcrelay-protocol = { path = "arcrelay-protocol" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-transfer.git"]
+arcrelay-transfer = { path = "arcrelay-transfer" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-transport.git"]
+arcrelay-transport = { path = "arcrelay-transport" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-web-gateway.git"]
+arcrelay-web-gateway = { path = "arcrelay-web-gateway" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-wire.git"]
+arcrelay-wire = { path = "arcrelay-wire" }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

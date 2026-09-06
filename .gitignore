@@ -1,0 +1,11 @@
+/target/
+/.DS_Store
+
+# Public repositories do not carry development review material.
+/docs/design/
+/*-comparison*.png
+/*-focused*.png
+/*-implementation*.png
+/*-e2e-report.md
+/design-qa.md
+/design-source*.png

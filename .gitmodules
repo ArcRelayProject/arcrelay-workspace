@@ -1,0 +1,42 @@
+[submodule "arcrelay-wire"]
+	path = arcrelay-wire
+	url = https://github.com/ArcRelayProject/arcrelay-wire.git
+[submodule "arcrelay-transport"]
+	path = arcrelay-transport
+	url = https://github.com/ArcRelayProject/arcrelay-transport.git
+[submodule "arcrelay-peer"]
+	path = arcrelay-peer
+	url = https://github.com/ArcRelayProject/arcrelay-peer.git
+[submodule "arcrelay-automation"]
+	path = arcrelay-automation
+	url = https://github.com/ArcRelayProject/arcrelay-automation.git
+[submodule "arcrelay-content"]
+	path = arcrelay-content
+	url = https://github.com/ArcRelayProject/arcrelay-content.git
+[submodule "arcrelay-files"]
+	path = arcrelay-files
+	url = https://github.com/ArcRelayProject/arcrelay-files.git
+[submodule "arcrelay-input"]
+	path = arcrelay-input
+	url = https://github.com/ArcRelayProject/arcrelay-input.git
+[submodule "arcrelay-network"]
+	path = arcrelay-network
+	url = https://github.com/ArcRelayProject/arcrelay-network.git
+[submodule "arcrelay-print"]
+	path = arcrelay-print
+	url = https://github.com/ArcRelayProject/arcrelay-print.git
+[submodule "arcrelay-protocol"]
+	path = arcrelay-protocol
+	url = https://github.com/ArcRelayProject/arcrelay-protocol.git
+[submodule "arcrelay-transfer"]
+	path = arcrelay-transfer
+	url = https://github.com/ArcRelayProject/arcrelay-transfer.git
+[submodule "arcrelay-web-gateway"]
+	path = arcrelay-web-gateway
+	url = https://github.com/ArcRelayProject/arcrelay-web-gateway.git
+[submodule "arcrelay-core"]
+	path = arcrelay-core
+	url = https://github.com/ArcRelayProject/arcrelay-core.git
+[submodule "arcrelay-desktop"]
+	path = arcrelay-desktop
+	url = https://github.com/ArcRelayProject/arcrelay-desktop.git

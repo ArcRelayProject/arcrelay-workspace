@@ -46,7 +46,9 @@ official builds; the open-source desktop client builds and runs without them.
 
 The source code is licensed under the GNU Affero General Public License,
 version 3 only. See [LICENSE](LICENSE). Commercial licensing is available from
-the ArcRelay project owner for products that cannot comply with the AGPL.
+Shenzhen Changning Technology Co., Ltd. at
+[chenzibo@nbhive.com](mailto:chenzibo@nbhive.com) for products that cannot
+comply with the AGPL.
 
 The software license does not grant rights to the ArcRelay name, logos, or
 trade dress. See [TRADEMARKS.md](TRADEMARKS.md).

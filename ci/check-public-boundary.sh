@@ -18,7 +18,7 @@ if rg -n --hidden \
   --glob '!Cargo.lock' \
   --glob '!package-lock.json' \
   --glob '!bun.lock' \
-  '(gitea\.czbrcj\.cn|ci\.czbrcj\.cn|czbrcj|chenzibo|LinkGroup|SniptraGroup|BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|github_pat_|gh[pousr]_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16})'; then
+  '(gitea\.czbrcj\.cn|ci\.czbrcj\.cn|czbrcj|/Users/chenzibo|LinkGroup|SniptraGroup|BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|github_pat_|gh[pousr]_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16})'; then
   echo "public source contains an internal identifier or likely credential" >&2
   exit 1
 fi

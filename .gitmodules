@@ -39,4 +39,4 @@
 	url = https://github.com/ArcRelayProject/arcrelay-core.git
 [submodule "arcrelay-desktop"]
 	path = arcrelay-desktop
-	url = https://github.com/ArcRelayProject/arcrelay-desktop.git
+	url = https://github.com/ArcRelayProject/arcrelay.git

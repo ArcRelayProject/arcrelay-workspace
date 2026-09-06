@@ -1,8 +1,8 @@
-# ArcRelay
+# ArcRelay workspace
 
-ArcRelay is a local-first desktop collaboration system for clipboard sharing,
-nearby file transfer, cross-screen input, printer sharing, remote files, and
-local automation.
+[ArcRelay](https://github.com/ArcRelayProject/arcrelay) is a local-first desktop
+collaboration system for clipboard sharing, nearby file transfer, cross-screen
+input, printer sharing, remote files, and local automation.
 
 This repository is the integration workspace for the open-source desktop
 client. Each Rust or Tauri component is pinned as a Git submodule so releases
@@ -16,8 +16,8 @@ part of this repository.
 ## Clone and verify
 
 ```sh
-git clone --recurse-submodules https://github.com/ArcRelayProject/arcrelay.git
-cd arcrelay
+git clone --recurse-submodules https://github.com/ArcRelayProject/arcrelay-workspace.git
+cd arcrelay-workspace
 ./ci/check-public-boundary.sh
 python3 ci/check-dependency-pins.py
 cargo fmt --all -- --check

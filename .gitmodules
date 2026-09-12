@@ -40,3 +40,6 @@
 [submodule "arcrelay-desktop"]
 	path = arcrelay-desktop
 	url = https://github.com/ArcRelayProject/arcrelay.git
+[submodule "arcrelay-gaze"]
+	path = arcrelay-gaze
+	url = https://github.com/ArcRelayProject/arcrelay-gaze.git

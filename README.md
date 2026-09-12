@@ -39,7 +39,7 @@ official builds; the open-source desktop client builds and runs without them.
 | Desktop application | `arcrelay-desktop` |
 | Wire and transport | `arcrelay-wire`, `arcrelay-transport`, `arcrelay-network` |
 | Trust and permissions | `arcrelay-peer` |
-| Features | `arcrelay-content`, `arcrelay-input`, `arcrelay-transfer`, `arcrelay-print`, `arcrelay-files` |
+| Features | `arcrelay-content`, `arcrelay-input`, `arcrelay-transfer`, `arcrelay-print`, `arcrelay-files`, `arcrelay-gaze` |
 | Application services | `arcrelay-core`, `arcrelay-protocol`, `arcrelay-automation`, `arcrelay-web-gateway` |
 
 ## License and branding

@@ -13,6 +13,7 @@ members = [
     "arcrelay-transfer",
     "arcrelay-web-gateway",
     "arcrelay-core",
+    "arcrelay-gaze",
     "arcrelay-desktop",
 ]
 resolver = "2"
@@ -28,6 +29,9 @@ arcrelay-core = { path = "arcrelay-core" }
 
 [patch."https://github.com/ArcRelayProject/arcrelay-files.git"]
 arcrelay-files = { path = "arcrelay-files" }
+
+[patch."https://github.com/ArcRelayProject/arcrelay-gaze.git"]
+arcrelay-gaze = { path = "arcrelay-gaze" }
 
 [patch."https://github.com/ArcRelayProject/arcrelay-input.git"]
 arcrelay-input = { path = "arcrelay-input" }
